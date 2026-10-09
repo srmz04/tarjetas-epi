@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+assets_local/
+entrada/
+salida/
+*.pdf
+*.docx
+*.tmp
+*.bak

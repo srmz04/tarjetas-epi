@@ -1,0 +1,136 @@
+@page {
+  size: 8.5in 5.5in;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cantarell", "Helvetica Neue", Arial, sans-serif;
+  font-size: 7.4pt;
+  line-height: 1.18;
+  color: #222;
+}
+
+.header-bg,
+.footer-bg {
+  position: fixed;
+  left: 0;
+  width: 8.5in;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.header-bg {
+  top: 0;
+  height: 1.1in;
+  background-image: url("__HEADER_IMAGE__");
+  background-size: 8.5in 1.27in;
+  background-position: top center;
+}
+
+.footer-bg {
+  bottom: 0;
+  height: 0.78in;
+  background-image: url("__FOOTER_IMAGE__");
+  background-size: 8.5in 1in;
+  background-position: bottom center;
+}
+
+.page {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  width: 8.5in;
+  min-height: 5.5in;
+  padding: 0.72in 0.85in 0.7in 0.85in;
+}
+
+.encabezado {
+  position: relative;
+  height: 0.82in;
+  margin-bottom: 0;
+}
+
+.destinatario,
+.fecha-folio {
+  position: absolute;
+  top: 0.35in;
+  min-width: 0;
+  width: 2.45in;
+}
+
+.destinatario {
+  left: 0;
+}
+
+.destinatario p,
+.fecha-folio p {
+  margin: 0 0 0.025in 0;
+}
+
+.fecha-folio {
+  right: 0;
+  text-align: right;
+}
+
+h1 {
+  margin: 0 0 0.12in 0;
+  text-align: center;
+  font-size: 9.6pt;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.contenido {
+  text-align: justify;
+  margin-top: 0;
+}
+
+.contenido p {
+  margin: 0 0 0.055in 0;
+}
+
+.contenido ul,
+.contenido ol {
+  margin-top: 0;
+  margin-bottom: 0.055in;
+}
+
+.contenido table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.055in 0;
+  font-size: 6.8pt;
+}
+
+.contenido th,
+.contenido td {
+  border: 1px solid #999;
+  padding: 4px 6px;
+}
+
+.cierre {
+  margin-top: 0.1in;
+}
+
+.cierre p {
+  margin: 0.02in 0;
+}
+
+.cargo-firmante {
+  margin-top: 0.06in;
+}
+
+.firmante {
+  font-weight: 700;
+}
+
+.iniciales {
+  margin-top: 0.06in;
+  font-size: 6.8pt;
+}
